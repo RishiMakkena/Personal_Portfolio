@@ -1,0 +1,93 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+.nav_panel{
+    position: fixed;
+    width: 100%;
+    top:120px;
+}
+.head_box{
+    padding: 0.8%;
+    background-color: #371B58;
+    text-align: center;
+    margin: 0%;
+    font-size: 25px;
+    font-weight: 1600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(exp/joshua-woroniecki-3mXIZP6_6zY-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    image-orientation: flip;
+    position: fixed;
+    width: 100%;
+}
+.white{
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 1.5%;
+    font-size: 50px;
+    padding-right: 1.5%;
+}
+.top{
+    display: flex;
+    padding: 0%;
+    background-color: #4C3575;
+    height: 2rem;
+    align-items: center;
+
+}
+a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    padding: 0%;
+    background-color: #4C3575;
+    height: 2rem;
+    align-items: center;
+
+}
+.imu{
+    width: 230px;
+    height: 270px;
+    border-radius: 100%;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.full{
+    padding: 50px;
+    background-color: #7858A6;
+    background-image: url(exp/bg.jpg);
+    background-blend-mode: lighten;
+    padding-top: 170px;
+}
+.imaget{
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+.info{
+    list-style-type: none;
+    font-weight: 800;
+    font-size: 30px;
+}
+.rest{
+    font-weight: bold;
+}
